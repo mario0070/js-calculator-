@@ -4,34 +4,37 @@ var opr=prompt("enter operator : + , * , - , / , % ")
 var numb2=parseInt(prompt("enter the second number: 0 - 9 "))
 
 if (opr =="+"){
-    
+
     let result= numb1 + numb2;
-     alert(" result = " + result);
+    alert(numb1  + opr + numb2 + " = " + result);
+    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
 }
 
 else if (opr =="-"){
 
     let result= numb1 - numb2;
-     alert(" result = " + result);
+    alert(numb1 + opr + numb2 + " = " + result);
+    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
 
 }
 
 else if (opr =="/"){
 
     let result= numb1 / numb2;
-     alert(" result = " + result);
+    alert(numb1 + opr + numb2 + " = " + result);
+    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
 }
 
 else if (opr =="*"){
 
     let result= numb1 * numb2;
-     alert(" result = " + result);
-    
+    alert(numb1 + opr + numb2 + " = " + result);
+    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
 }
 
-else if (opr =="%"){
+else if (op r=="%"){
 
     let result= numb1 % numb2;
-     alert(" result = " + result);
-  
+    alert(numb1 + opr + numb2 + " = " + result);
+    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
 }
