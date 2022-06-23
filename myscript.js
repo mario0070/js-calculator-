@@ -7,14 +7,14 @@ if (opr =="+"){
 
     let result= numb1 + numb2;
     alert(numb1  + opr + numb2 + " = " + result);
-    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
+    console.log(numb1 + " " + opr + " " + numb2 + " = " + result);
 }
 
 else if (opr =="-"){
 
     let result= numb1 - numb2;
     alert(numb1 + opr + numb2 + " = " + result);
-    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
+    console.log(numb1 + " " + opr + " " + numb2 + " = " + result);
 
 }
 
@@ -22,19 +22,19 @@ else if (opr =="/"){
 
     let result= numb1 / numb2;
     alert(numb1 + opr + numb2 + " = " + result);
-    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
+    console.log(numb1 + " " + opr + " " + numb2 + " = " + result);
 }
 
 else if (opr =="*"){
 
     let result= numb1 * numb2;
     alert(numb1 + opr + numb2 + " = " + result);
-    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
+    console.log(numb1 + " " + opr + " " + numb2 + " = " + result);
 }
 
 else if (opr =="%"){
 
     let result= numb1 % numb2;
     alert(numb1 + opr + numb2 + " = " + result);
-    console.log(`${numb1} ${opr} ${numb2} = ${result}`);
+    console.log(numb1 + " " + opr + " " + numb2 + " = " + result);
 }
